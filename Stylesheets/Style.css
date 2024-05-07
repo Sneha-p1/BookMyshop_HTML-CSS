@@ -1,0 +1,132 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.textStyle{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;}
+    p{  
+        font-size: 18px;
+        text-align: justify;
+
+    }
+
+.headerr{
+    text-align: center;
+    }
+    
+    
+           .boxModel{
+            background-image: url("/home/snehap/CSS/BookMyShop/Images/4f4c5c51-aa59-432f-a140-e825879d3f70.jpeg");
+                    width: 820px;
+                    height: 125PX;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    border-style:inset;
+                    border-radius: 15PX;
+                    border-width: 2px;
+                    border-color:#b2f0f0 ;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 30px;
+                    outline-style:double;
+                    outline-color: #D6EAF8;
+                    overflow:inherit;
+                    }
+            a:hover{
+                color: crimson;
+                font-size: 18px;
+            }
+            ul{
+                list-style-type: square;
+                list-style-position: inside;
+            }
+            li{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            img{
+                height: 200px;
+                width: 180;
+                float: right;
+                opacity: 0.5;
+                
+                
+            }
+            img:hover{
+                opacity: 1.0;
+            }
+            table{
+                border-spacing: 20px;
+            }
+            .goRight{
+                float: right;
+            }
+            .para{
+                text-align: left;
+                height: 320px;
+                width: 1200px;
+            }
+    
+
+            
+            #textS{
+                text-decoration: underline;
+                text-decoration-style: dotted;
+                text-decoration-color: rgb(16, 68, 68);
+                text-shadow: 2px 2px 2px rgb(32, 241, 241);
+            }
+
+            table,th{
+                border-style: solid;
+                border-width: 1px;
+                border-color:rgb(1, 184, 184);
+            }
+            td{
+                padding: 5px;
+            }
+            table{
+                border-top-color: rgb(0, 105, 175);
+                border-radius: 15px;
+                margin: auto;
+            }
+            .navBar{
+                display: flex;
+                list-style-type:none;
+                padding: 15px;
+                gap: 30px;
+                background-color: rgb(241, 241, 241);
+                float: right;
+            }
+            .row{
+               /* width: 30%;
+                height: 400px;*/
+                float: left;
+               /* padding: 5px;*/
+                border-right-style:dashed;
+                border-width: 2px;
+    
+            }
+            .row.side{
+                width: 25%;
+            }
+            .row.main{
+                width: 50%;
+            }
+            .line:after{
+                content:"";
+                display: table;
+                clear:both
+            }
+
+            @media only screen and (max-width:600px){
+                .headerr{
+                    font-size: 20px;
+                }
+                .row{
+                    width: 100px;
+                }
+            }
